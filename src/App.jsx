@@ -20,6 +20,7 @@ function App() {
         <li><Link to='/aboutme'>Aboutme</Link></li>
         <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
+        <li><Link to='/character/:id'>Character</Link></li>
         </ul>
            
         <Routes>

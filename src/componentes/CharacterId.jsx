@@ -12,12 +12,13 @@ const CharacterId = () => {
           axios.get(URL)
           .then (res => setCharacter(res.data))
           .catch (err => console.log(err))
-        }, [])
+        }, [id])
         console.log(character)
 
   return (
     <article>
         <img src={character?.image} alt="" />
+        <h2>{character?.name}</h2>
 
     </article>
   )
